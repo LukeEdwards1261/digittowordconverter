@@ -45,7 +45,7 @@ public class Converter2 {
 		if  (num >=80 && num <=89 ) {output = (output +"eighty ");}
 		if  (num >=90 && num <=99 ) {output = (output +"ninety ");}
 		
-		num = num%10;
+		if (num>=20) {num = num%10;}
 		
 		//digits up to 20
 		if  (num == 1) {output = (output +"one");}
