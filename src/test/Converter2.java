@@ -31,6 +31,7 @@ public class Converter2 {
 		if  (num >=800 && num <=899 ) {output = (output +"eight hundred ");}
 		if  (num >=900 && num <=999 ) {output = (output +"nine hundred ");}
 		
+		if (num>100) {output = (output +"and ");}
 		num = num%100;
 		
 		//double digits
